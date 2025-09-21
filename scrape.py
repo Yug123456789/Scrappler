@@ -1,7 +1,16 @@
+#git init
+#git status => if you want to check what are the status of filess
+# git diff  => if you want to check what are  th  changes 
+# git add .
+# git commit -m "Your message"
+# copy paste git  code form github
+ 
+
 import requests  
 from bs4 import BeautifulSoup
 
 url = "https://books.toscrape.com/"
+
 
 def scrape_books(url):
     response = requests.get(url)
